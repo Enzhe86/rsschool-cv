@@ -16,8 +16,8 @@
 ## Skills
 * SQL
 * Jira
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
 * Git, GitHub
 * VSCode
@@ -33,4 +33,20 @@ function numberToString(num) {
 ## Education
 2004 – 2009  – Tatar State University of Education and Humanities, Teaching English and Arabic as Foreign Languages
 
+## Courses
+* [JavaScript Manual](https://learn.javascript.ru/) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* [Learn HTML](https://www.codecademy.com/learn/learn-html)
 
+## Experience
+**July 2018 – July 2021** – Kazan (Volga Region) Federal University
+
+*Assistant Editor*
+
+**September 2015 – July 2021** – Kazan (Volga Region) Federal University
+
+*Senior Lecturer of English and Arabic*
+
+## Languages
+* Advanced English
+* Advanced Modern Standard Arabic
