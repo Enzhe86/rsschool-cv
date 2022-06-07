@@ -13,3 +13,24 @@
    **GitHub:** [Enzhe86](https://github.com/Enzhe86)
 
    **Discord:** Enzhe (@Enzhe86)
+## Skills
+* SQL
+* Jira
+* HTML5
+* CSS3
+* JavaScript
+* Git, GitHub
+* VSCode
+  
+## Code example:
+*We need a function that can transform a number into a string. What ways of achieving this do you know?*
+```
+function numberToString(num) {
+  return num.toString();
+}
+```
+
+## Education
+2004 – 2009  – Tatar State University of Education and Humanities, Teaching English and Arabic as Foreign Languages
+
+
