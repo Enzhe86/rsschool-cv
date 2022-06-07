@@ -35,7 +35,9 @@ function numberToString(num) {
 
 ## Courses
 * [JavaScript Manual](https://learn.javascript.ru/) (in progress)
+
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 * [Learn HTML](https://www.codecademy.com/learn/learn-html)
 
 ## Experience
@@ -49,4 +51,5 @@ function numberToString(num) {
 
 ## Languages
 * Advanced English
+
 * Advanced Modern Standard Arabic
