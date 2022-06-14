@@ -4,18 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="logo" href="./assets/img/rss-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
     <title>CV</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="cv">
-      <section>
-        <h1>Enzhe Shamsutdinova</h1>
-        <figure>
-            <img src="Avatar.png" alt="avatar" width="100px" height="100px">
-        </figure>
-        <h2>Junior Front End Developer</h2>
-      </section>
-    </div>
-  </body>
+    <header class = "header">
+        <div class="container header-container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/Avatar.png" alt="Avatar" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Enzhe Shamsutdinova</h1>
+                    <h2 class="section-subtitle">Junior Front-End Developer</h2>
+                </div>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>I am a former university teacher of Arabic and English. Although I was engaged in education, it happened so that I constantly crossed paths with IT specialists:</p>
+        <ul>
+            <li>in cooperation with programmers I led the development of two university websites. I compiled content for them in Russian and English, then supervised the website, and informed programmers about errors and bugs. I even posted news on my own (one of the websites was developed on Joomla);</li>
+            <li>I created the cover of the scientific journal together with the colleagues from the Egyptian-Russian Foundation for Culture and Science (Cairo, Egypt, where the journal was published);</li>
+            <li>I compiled a technical assignment for programmers developing the content of interactive games for learning Arabic for school children; within the framework of this project, I compiled Use cases in text format for the entire project team (the developers and authors of the book) and for teachers.
+                So, my interest in front-end development is in no way fortuitous.</li>
+        </ul>
+              </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contact</h2>
+                <ul class="section-list">
+                  <li class="section-item contacts-item">
+                Location: Kazan, Russia
+                  </li>
+                  <li class="section-item contacts-item">
+                Phone: +7(917)9343595
+                </li>
+                  <li class="section-item contacts-item">
+                <a href="mailto:enzhe_86@gmail.com" title="email">Email: enzhe_86@mail.ru</a>
+                  </li>
+                  <li class="section-item contacts-item">Discord: Enzhe(@Enzhe86)
+                  </li>
+                </ul>
+              </section>
+              <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                  <li class="section-item">SQL</li>
+                  <li class="section-item">Jira</li>
+                  <li class="section-item">HTML</li>
+                  <li class="section-item">CSS</li>
+                  <li class="section-item">JavaScript</li>
+                  <li class="section-item">Git, GitHub</li>
+                  <li class="section-item">VSCode</li>
+                  <li class="section-item">Figma</li> 
+                </ul>
+              </section>
+              <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <p><i>We need a function that can transform a number into a string. What ways of achieving this do you know?</i></p>
+        <pre class="pre"><code>function numberToString(num) {
+            return num.toString();
+        }</code></pre>
+              </section>
+              <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                        <li><a href="https://learn.javascript.ru/" class="section-item">JavaScript Manual (in progress)</a></li>
+                        <li><a href="https://rs.school/js/" class="section-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</a></li>
+                        <li><a href="https://www.codecademy.com/catalog/language/html-css" class="section-item">Learn HTML (in progress)</a></li>
+                    </ul>
+              </section>
+              <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                        <li><a href="https://enzhe86.github.io/rsschool-cv/cv" class="section-item">Markdown & Git</a></li>
+                        <li><a href="https://enzhe86.github.io/rsschool-cv/" class="section-item">CV#2. HTML, CSS & Git Basics</a></li>
+                    </ul>
+              </section>
+              <section class="section section-languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                  <li class="section-item">Advanced English</li>
+                  <li class="section-item">Advanced Modern Standard Arabic</li>
+                    </ul> 
+              </section> 
+              <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>2004 – 2009 - Tatar State University of Education and Humanities, Teaching English and Arabic as Foreign Languages</p>
+              </section>       
+          <section class="section section-experience" id="experience">
+            <h2 class="section-title">Experience</h2>
+        <ul class="section-list">
+                    <li class="section-item">July 2018 – July 2021 - Kazan (Volga Region) Federal University, <i>Assistant Editor</i></li>
+                    <li class="section-item">September 2015 – July 2021 - Kazan (Volga Region) Federal University, <i>Senior Lecturer of Arabic and Arabic</i></li>
+          </ul>
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+          <div>© 2022 <a href="https://github.com/Enzhe86" class="github nav-link">Enzhe86</a></div>
+          <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+      </footer>
+</body>
 </html>
